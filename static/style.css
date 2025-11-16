@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.site-header {
+    padding: 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-item{
+    background-color: antiquewhite;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
